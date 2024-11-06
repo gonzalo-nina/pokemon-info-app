@@ -1,0 +1,153 @@
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  width: 250px;
+  margin-right: 10px;
+  border: 2px solid #7f8c8d;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db; 
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:focus {
+  outline: none;
+}
+
+.pokemon-details {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.pokemon-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.pokemon-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul li {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 15px;
+  color: #2c3e50;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.evolution-list {
+  margin-top: 20px;
+}
+
+.evolution-list li {
+  display: inline-block;
+  background-color: #2980b9;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.evolution-list li:hover {
+  background-color: #1c6ea4;
+}
+
+.evolution-list li:active {
+  background-color: #1a4c7b;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.loading-message {
+  color: #333;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
